@@ -1,0 +1,22 @@
+{
+  "name": "rebaz-dev-global-state",
+  "version": "1.0.4",
+  "description": "Hare is globals state to management state",
+  "main": "./dist/index.js",
+  "types": "./src/index.d.ts",
+  "author": "rebaz-dev",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "type": "commonjs",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
